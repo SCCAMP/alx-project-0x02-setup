@@ -1,5 +1,4 @@
-import Card from "@/components/common/card";
-
+import Card from ["@/components/common/Card"];
 const CardAny = Card as any;
 
 const Home = () => {
