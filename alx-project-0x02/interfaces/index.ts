@@ -895,3 +895,8 @@ export interface IInterfaceNotificationStatisticsResponse {
     message: string;
     success: boolean;
 }
+export interface CardProps {
+    title: string;
+    content: string;
+    footer?: string;
+}
